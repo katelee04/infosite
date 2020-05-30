@@ -24,6 +24,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.content {
+    min-height: 70%;
+}
+
+.hometitle{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 50px;
+    letter-spacing: 2.8px;
+    word-spacing: 1.6px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    margin: 80px 50px 30px 50px;
+}
+
 #title{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 50px;
@@ -94,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand {
     color: #333;
-    font-size: 30px;
+    font-size: 25px;
 }
 /*End of Navbar*/
 
@@ -144,6 +161,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
 }
 /*End of Button*/
+
+/*Carousel*/
+.carousel{
+    width: 100%;
+    max-height: 500px
+}
+/*End of Carousel*/
+
+/*Divider*/
+.divider{
+    border: 2px solid #6494A0;
+    width: 120px;
+    height: 0px;
+}
+/*End of Divider*/
+
 
 /*Timeline*/
 .flex-parent {

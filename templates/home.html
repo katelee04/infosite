@@ -2,8 +2,55 @@
 
 {% block content %}
 
+<!--Carousel-->
 
-<h1>Home Page</h1>
+<div id="carouselHome" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHome" data-slide-to="1"></li>
+        <li data-target="#carouselHome" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 500px">
+            <img class="d-block w-100" src="../static/images/crowd1.jpeg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block" style="top: 20%; color: black">
+                <div class="hometitle">Your Dataset Bias Detector</div>
+                <h5>Helping our clients customize the process of finding image dataset bias using crowdsourcing.</h5>
+            </div>
+        </div>
+        <div class="carousel-item" style="max-height: 500px">
+            <img class="d-block w-100" src="../static/images/crowd2.jpeg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block" style="top: 20%; color: black">
+                <div class="hometitle">Your Dataset Bias Detector</div>
+                <h5>Helping our clients customize the process of finding image dataset bias using crowdsourcing.</h5>
+            </div>
+        </div>
+        <div class="carousel-item" style="max-height: 500px">
+            <img class="d-block w-100" src="../static/images/crowd3.jpeg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block" style="top: 20%; color: white">
+                <div class="hometitle">Your Dataset Bias Detector</div>
+                <h5>Helping our clients customize the process of finding image dataset bias using crowdsourcing.</h5>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!--End of Carousel-->
+
+<div style="padding-top: 40px; margin: 0 150px">
+    <div class="divider"></div>
+    <h3 style="padding-top: 20px">Detecting the bias</h3>
+</div>
+
 
 
 {% endblock%}
