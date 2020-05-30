@@ -1,8 +1,8 @@
-.Python
+*.Python
 env
 bin
 lib
 include
-.DS_Store
-.pyc
+*.DS_Store
+*.pyc
 **/__pycache__
