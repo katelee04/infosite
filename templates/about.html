@@ -1,9 +1,22 @@
 {% extends 'base.html' %}
 
+
 {% block content %}
-
-
-<h1>About Us</h1>
+<div class="row justify-content-center align-items-center">
+        <div style="text-align: center;">
+            <h1 id="title">About Us</h1>
+            <img src="../static/images/crowdsourcing.jpg" class="img-fluid m-3" alt="Responsive image" style="opacity: 0.7;box-shadow: 10px 10px 5px rgba(0,0,0,0.2)">
+        </div>
+        <p id="maintext">Crowdsourcing utilizes the knowledge of humans to complete a task. In the scope of
+                research, we are using the crowd to handle specific tasks that may be hard for a machine to do
+                or improve the work of a machine. This may include tasks such as detecting bias within image datasets
+                using human knowledge rather than machines, since humans are better at
+                distinguishing features within images. This semester, we are utilizing crowdsourcing to help select the
+                most suitable machine model to use for unsupervised domain adaptation.
+                We use the crowd to classify images to datasets and generate a confusion matrix detailing the similarity
+                of images across several datasets.
+        </p>
+</div>
 
 
 {% endblock%}
