@@ -1,5 +1,5 @@
 body{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 16px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -21,7 +21,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
 }
 
 .content {
@@ -29,20 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hometitle{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 50px;
     letter-spacing: 2.8px;
     word-spacing: 1.6px;
-    font-weight: 700;
     text-decoration: none;
     font-style: normal;
     font-variant: small-caps;
-    text-transform: capitalize;
     margin: 80px 50px 30px 50px;
 }
 
 .title{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 50px;
     letter-spacing: 2.8px;
     word-spacing: 1.6px;
@@ -51,12 +49,11 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     font-style: normal;
     font-variant: small-caps;
-    text-transform: capitalize;
     margin: 80px 50px 50px 50px;
 }
 
 .subtitle{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 20px;
     letter-spacing: 1.4px;
     word-spacing: 0.8px;
@@ -70,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .headline{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 20px;
     letter-spacing: 1.4px;
     word-spacing: 0.8px;
@@ -79,13 +76,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
-    text-transform: capitalize;
 }
 
 .maintext{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Futura-Medium;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.17px;
     word-spacing: 1px;
     color: #000000;
     font-weight: 400;
@@ -119,10 +115,10 @@ h1, h2, h3, h4, h5, h6 {
 /*Button*/
 .button {
     display: inline-block;
-    border-radius: 2px;
+    border-radius: 15px;
     background-image: linear-gradient(
-            to right,
-            #97C0BC, #6494A0
+            241deg,
+            #4947FF 4%, #6FC2F7 100%
     );
     border: none;
     color: #FFFFFF;
